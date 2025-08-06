@@ -237,7 +237,7 @@ const AcademicJournalCalendar = () => {
   };
 
   // 마감일 색상 결정
-  const getDeadlineColor = (daysUntil) => {
+  const getDeadlineColor = (daysUntil: number) => {
     if (daysUntil <= 7) return 'text-red-600 bg-red-50 border-red-200';
     if (daysUntil <= 30) return 'text-orange-600 bg-orange-50 border-orange-200';
     if (daysUntil <= 60) return 'text-yellow-600 bg-yellow-50 border-yellow-200';
