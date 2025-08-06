@@ -351,7 +351,9 @@ const AcademicJournalCalendar = () => {
                         홈페이지
                       </a>
                       {hasSecurityWarning(item.website) && (
-                        <AlertTriangle className="w-3 h-3 text-amber-500" title="보안 경고: HTTP 사이트" />
+                        <div title="보안 경고: HTTP 사이트">
+                          <AlertTriangle className="w-3 h-3 text-amber-500" />
+                        </div>
                       )}
                     </div>
                   )}
