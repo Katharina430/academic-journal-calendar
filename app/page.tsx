@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import React, { useState } from 'react';
@@ -128,7 +129,7 @@ const AcademicJournalCalendar = () => {
 
   // 다가오는 마감일 계산
   const getUpcomingDeadlines = () => {
-    const upcoming: any[] = [];
+    const upcoming = [] as any[];
     
     journals.forEach(journal => {
       journal.deadlines.forEach((deadline, index) => {
