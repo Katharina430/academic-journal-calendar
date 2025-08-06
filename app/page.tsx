@@ -245,7 +245,7 @@ const AcademicJournalCalendar = () => {
   };
 
   // URL 보안 체크
-  const hasSecurityWarning = (url) => {
+  const hasSecurityWarning = (url: string) => {
     return url && url.startsWith('http://') && !url.includes('localhost');
   };
 
