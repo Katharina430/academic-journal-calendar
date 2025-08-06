@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Calendar, Clock, Plus, Edit3, Trash2, Filter, Search, AlertTriangle, ExternalLink } from 'lucide-react';
+import { Calendar, Clock, Plus, Trash2, Filter, Search, AlertTriangle, ExternalLink } from 'lucide-react';
 
 const AcademicJournalCalendar = () => {
   const [journals, setJournals] = useState([
@@ -128,7 +128,7 @@ const AcademicJournalCalendar = () => {
 
   // 다가오는 마감일 계산
   const getUpcomingDeadlines = () => {
-    const upcoming = [];
+    const upcoming: any[] = [];
     
     journals.forEach(journal => {
       journal.deadlines.forEach((deadline, index) => {
