@@ -141,7 +141,7 @@ const AcademicJournalCalendar = () => {
           deadlineDate = new Date(currentYear + 1, month - 1, day);
         }
         
-        const daysUntil = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
+        const daysUntil = Math.ceil((deadlineDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
         
         upcoming.push({
           journal: journal.name,
