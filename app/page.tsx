@@ -171,7 +171,7 @@ const AcademicJournalCalendar = () => {
         return a.deadline - b.deadline;
       }
       // 2차: 분야 우선순위
-      return (fieldPriority[a.field] || 999) - (fieldPriority[b.field] || 999);
+      return ((fieldPriority as any)[a.field] || 999) - ((fieldPriority as any)[b.field] || 999);
     });
   };
 
