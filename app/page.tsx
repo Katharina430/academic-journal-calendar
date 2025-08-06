@@ -228,7 +228,7 @@ const AcademicJournalCalendar = () => {
   };
 
   // 마감일 필드 제거
-  const removeDeadlineField = (index) => {
+  const removeDeadlineField = (index: number) => {
     setNewJournal({
       ...newJournal,
       deadlines: newJournal.deadlines.filter((_, i) => i !== index),
