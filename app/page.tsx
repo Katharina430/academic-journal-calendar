@@ -214,7 +214,7 @@ const AcademicJournalCalendar = () => {
   };
 
   // 학술지 삭제
-  const deleteJournal = (id) => {
+  const deleteJournal = (id: number) => {
     setJournals(journals.filter(j => j.id !== id));
   };
 
