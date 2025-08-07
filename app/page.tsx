@@ -375,78 +375,60 @@ const AcademicJournalCalendar = () => {
         </p>
         <div className="grid gap-3">
           <div className="p-4 rounded-lg border-2 text-emerald-600 bg-emerald-50 border-emerald-200">
-            <div className="flex justify-between items-start">
-              <div className="flex-1">
-                <h3 className="font-semibold text-lg">Korean Journal of English Language and Literature</h3>
-                <p className="text-sm opacity-75">영문학 · 영어 · 한국영어영문학회</p>
-                <p className="font-medium mt-1">
-                  연중 투고 가능 · 분기별 심사
-                </p>
-                <p className="text-sm opacity-75 mt-1">연4회 발간</p>
-              </div>
-              <div className="flex flex-col gap-1 ml-4">
-                <a
-                  href="https://kjell.kr/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-emerald-600 hover:underline text-sm font-medium"
-                >
-                  <ExternalLink className="w-3 h-3" />
-                  투고하기
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <div className="p-4 rounded-lg border-2 text-emerald-600 bg-emerald-50 border-emerald-200">
-            <div className="flex justify-between items-start">
-              <div className="flex-1">
-                <h3 className="font-semibold text-lg">Journal of Korean Culture</h3>
-                <p className="text-sm opacity-75">국문학 · 영어 · 고려대 한국언어문화학술확산연구소</p>
-                <p className="font-medium mt-1">
-                  연중 투고 가능 · 수시 접수
-                </p>
-                <p className="text-sm opacity-75 mt-1">연4회 발간</p>
-              </div>
-              <div className="flex flex-col gap-1 ml-4">
-                <a
-                  href="https://jkc1.jams.or.kr/co/main/jmMain.kci"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-emerald-600 hover:underline text-sm font-medium"
-                >
-                  <ExternalLink className="w-3 h-3" />
-                  투고하기
-                </a>
-                <a
-                  href="https://icklc.korea.ac.kr/icklc/index.do"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-gray-600 hover:underline text-sm"
-                >
-                  <ExternalLink className="w-3 h-3" />
-                  홈페이지
-                </a>
-              </div>
-            </div>
-          </div>
+  <div className="flex justify-between items-start">
+    <div className="flex-1">
+      <h3 className="font-semibold text-lg">Acta Koreana</h3>
+      <p className="text-sm opacity-75">인문학 · 영어 · 계명대 한국학연구원</p>
+      <p className="font-medium mt-1">연중 투고 가능</p>
+      <p className="text-sm opacity-75 mt-1">연2회 발간</p>
+    </div>
+    <div className="flex flex-col gap-1 ml-4">
+      <span className="text-emerald-600 text-sm font-medium">수시 투고</span>
+    </div>
+  </div>
+</div>
 
-          <div className="p-4 rounded-lg border-2 text-emerald-600 bg-emerald-50 border-emerald-200">
-            <div className="flex justify-between items-start">
-              <div className="flex-1">
-                <h3 className="font-semibold text-lg">International Journal of Korean Humanities and Social Sciences</h3>
-                <p className="text-sm opacity-75">인문학 · 영어 · 국제한국인문사회과학회</p>
-                <p className="font-medium mt-1">
-                  연중 투고 가능 · Rolling Review
-                </p>
-                <p className="text-sm opacity-75 mt-1">연2회 발간</p>
-              </div>
-              <div className="flex flex-col gap-1 ml-4">
-                <span className="text-emerald-600 text-sm font-medium">수시 투고</span>
-              </div>
-            </div>
-          </div>
-        </div>
+<div className="p-4 rounded-lg border-2 text-emerald-600 bg-emerald-50 border-emerald-200">
+  <div className="flex justify-between items-start">
+    <div className="flex-1">
+      <h3 className="font-semibold text-lg">Signs and Society</h3>
+      <p className="text-sm opacity-75">인문학 · 영어 · 한국외대 HK 세미오시스 연구센터</p>
+      <p className="font-medium mt-1">연중 투고 가능</p>
+      <p className="text-sm opacity-75 mt-1">연3회 발간</p>
+    </div>
+    <div className="flex flex-col gap-1 ml-4">
+      <span className="text-emerald-600 text-sm font-medium">수시 투고</span>
+    </div>
+  </div>
+</div>
+
+<div className="p-4 rounded-lg border-2 text-emerald-600 bg-emerald-50 border-emerald-200">
+  <div className="flex justify-between items-start">
+    <div className="flex-1">
+      <h3 className="font-semibold text-lg">Korea Journal</h3>
+      <p className="text-sm opacity-75">국문학 · 영어 · 한국학중앙연구원</p>
+      <p className="font-medium mt-1">연중 투고 가능</p>
+      <p className="text-sm opacity-75 mt-1">연4회 발간</p>
+    </div>
+    <div className="flex flex-col gap-1 ml-4">
+      <span className="text-emerald-600 text-sm font-medium">수시 투고</span>
+    </div>
+  </div>
+</div>
+
+<div className="p-4 rounded-lg border-2 text-emerald-600 bg-emerald-50 border-emerald-200">
+  <div className="flex justify-between items-start">
+    <div className="flex-1">
+      <h3 className="font-semibold text-lg">The Review of Korean Studies</h3>
+      <p className="text-sm opacity-75">국문학 · 영어 · 한국학중앙연구원</p>
+      <p className="font-medium mt-1">연중 투고 가능</p>
+      <p className="text-sm opacity-75 mt-1">연2회 발간</p>
+    </div>
+    <div className="flex flex-col gap-1 ml-4">
+      <span className="text-emerald-600 text-sm font-medium">수시 투고</span>
+    </div>
+  </div>
+</div>
         <div className="mt-4 p-3 bg-emerald-50 border border-emerald-200 rounded-lg">
           <p className="text-sm text-emerald-800">
             💡 <strong>영어 논문 작성 팁:</strong> 연중 투고 가능 학술지는 마감 압박 없이 충분한 시간을 갖고 완성도 높은 논문을 작성할 수 있어요!
